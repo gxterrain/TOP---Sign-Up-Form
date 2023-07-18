@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+section {
+    display:flex;
+}
+
+.image_container {
+    background-image: url(/media/colorwash.jpg);
+    width: 37vw;
+    height: 100vh;
+}
+
+.image_container > div {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_container {
+    background-color: rgba(0, 0, 0, 0.313);
+    margin-top: 8rem;
+}
+
+.logo {
+    width: 5rem;
+    max-width: 6rem;
+}
+
+.user_input {
+    width: 63vw;
+    background-color: whitesmoke;
+}
+
+.form_container {
+    box-shadow: 0 6px 8px 1px rgba(133, 133, 133, 0.365);
+}
+
+.row {
+display: flex;
+row-gap: 1rem;
+}
+
+.col {
+flex-direction: column;
+column-gap: 1rem;
+margin: .5rem;
+}
+
+.header {
+    margin: 6rem 1rem 1rem 2rem;
+}
+
+h1 {
+    color: forestgreen;
+    font-style:italic ;
+    margin-bottom: .75rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+form {
+    padding: 2rem;
+    background-color: white;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: .75rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border: .5px solid rgba(0, 0, 0, 0.392);
+    line-height: 1rem;
+    padding: 4px;
+    width: 15rem;
+}
+
+input:focus {
+    border-color: lightblue;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+.submit_container {
+    margin: .75rem 0 0 2rem;
+}
+
+button {
+    background-color: lightseagreen;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 8px;
+    margin: 1rem 0;
+    color: floralwhite;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: .25rem;
+}
